@@ -1,0 +1,16 @@
+<sixthSense.xml>
+	
+	<playSound>True</playSound> <!-- play the Sound True/False --->
+	<oneFrame>False</oneFrame> <!-- only one Frame / No Animation ? -> True, otherwise False for Animations --->
+	<stayTime>5.0</stayTime> <!-- how long the one Frame stays on the screen (redundant for Animations) --->
+	<soundPath>/6thsense/sixth_sense/illuminati</soundPath> <!-- Path to Sound, type '' or 'None' if no Sound --->
+	<fileName>Illuminati_</fileName> <!-- FileName, type the full Name for oneFrame, type the Name without the Number for Animations (without FileFormat) --->
+	<fileFormat>.dds</fileFormat> <!-- FileFormat --->
+	<sizeX>170</sizeX> <!-- Width in Pixels --->
+	<sizeY>170</sizeY> <!-- Height in Pixels --->
+	<!-- This is redundant if oneFrame is true --->
+	<speed>25</speed> <!-- Speed in Frames per Second --->
+	<animLength>124</animLength> <!-- Length of the Animation, type in the last Frame of your Animation --->
+</sixthSense.xml>
+
+
