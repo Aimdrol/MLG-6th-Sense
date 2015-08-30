@@ -1,18 +1,26 @@
 <sixthSense.xml>
-	<playSound>True</playSound> <!-- play the Sound True/False --->
-	<soundPath>/xvm/xvm/sixthsense</soundPath> <!-- Path to the sound in a .fsb file in the 'World of Tanks\res\audio' folder --->
-	<sizeX>170</sizeX> <!-- Width in Pixels --->
-	<sizeY>170</sizeY> <!-- Height in Pixels --->
+	<playSound>True</playSound> <!-- play the sound True/False -->
+	<soundPath>/xvm/xvm/illuminati</soundPath> <!-- Path to the sound in a .fsb file in the 'World of Tanks\res\audio' folder -->
+	
+	<showIcon>True</showIcon> <!-- show the 6th sense icon or not -->
+	<fileName>LampComp_</fileName> <!-- FileName, type the full Name for oneFrame, type the Name without the Number for Animations (without FileFormat) -->
+	<fileFormat>.dds</fileFormat> <!-- FileFormat -->
+	<sizeX>170</sizeX> <!-- Width in Pixels -->
+	<sizeY>170</sizeY> <!-- Height in Pixels -->
+	
 	<fadeOut>False</fadeOut> <!-- fade out the image | true =  immediately hidden -->
 	<fadeTime>1.0</fadeTime> <!--how long the image fades out -->
-	<showIcon>True</showIcon> <!-- show the 6th sense icon or not -->
-	<oneFrame>False</oneFrame> <!-- True = single, not animated image / False = animated image --->
-	<stayTime>5.0</stayTime> <!-- how long the one Frame stays on the screen (redundant for Animations) --->
-	<fileName>LampComp_</fileName> <!-- FileName, type the full Name for oneFrame, type the Name without the Number for Animations (without FileFormat) --->
-	<fileFormat>.dds</fileFormat> <!-- FileFormat --->
-	<!-- This is redundant if oneFrame is true --->
-	<speed>30</speed> <!-- Speed in Frames per Second --->
-	<animLength>224</animLength> <!-- Length of the Animation, type in the number of the last Frame of your Animation --->
+	
+	<oneFrame>False</oneFrame> <!-- True = single, not animated image / False = animated image -->
+	<stayTime>10.0</stayTime> <!-- how long the one Frame stays on the screen for one frame images | different behaviour for animations (see below) -->
+	<pauseAnimation>False</pauseAnimation> <!-- True = animation stops for stayTime at the pauseFrame frame -->
+	<pauseFrame>180</pauseFrame> <!-- frame to pause at if pauseAnimation is True -->
+	<pauseTimeModeTotal>True</pauseTimeModeTotal> <!-- True = pause time gets calculated such that the whole animation with pause runs for stayTime seconds -->
+												  <!-- False = animation pauses for stayTime seconds, whole animation with pause runs for more than -->
+											
+	<!-- This is redundant if oneFrame is true -->
+	<speed>30</speed> <!-- Speed in Frames per Second -->
+	<animLength>224</animLength> <!-- Length of the Animation, type in the number of the last Frame of your Animation -->
 </sixthSense.xml>
 
 
