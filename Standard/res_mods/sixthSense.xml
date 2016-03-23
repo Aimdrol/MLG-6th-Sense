@@ -1,6 +1,6 @@
 <sixthSense.xml>
 	<playSound>True</playSound> <!-- play the sound True/False -->
-	<soundPath>/xvm/xvm/illuminati</soundPath> <!-- Path to the sound in a .fsb file in the 'World of Tanks\res\audio' folder -->
+	<soundPath>lightbulb</soundPath> <!-- Path to the sound in a .fsb file in the 'World of Tanks\res\audio' folder -->
 	
 	<showIcon>True</showIcon> <!-- show the 6th sense icon or not -->
 	<fileName>LampComp_</fileName> <!-- FileName, type the full Name for oneFrame, type the Name without the Number for Animations (without FileFormat) -->
