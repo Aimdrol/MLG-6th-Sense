@@ -1,6 +1,6 @@
 <sixthSense.xml>	
 	<playSound>True</playSound> <!-- play the sound True/False -->
-	<soundPath>sixthsense_illuminati</soundPath> <!-- Path to the sound in a .fsb file in the 'World of Tanks\res\audio' folder -->
+	<soundPath>sixthsense_illuminati</soundPath> <!-- Path to the sound in a .bnk file in the 'World of Tanks\res_mods\<version>\audioww' folder -->
 	<!-- lightbulb = default sixth sense sound -->
 	<!-- sixthsense_illuminati = illuminati sound -->
 	
